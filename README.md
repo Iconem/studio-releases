@@ -2,6 +2,10 @@ public folder structure:
 
 ```
  public /
+    └── $id.bundle.js
+    └── $id.bundle.js.LICENSE.txt
+    └── favicon.ico
+    └── index.html
     └── data /
         └── experiences /
         └── models /
@@ -36,3 +40,9 @@ public folder structure:
     └── fonts /
     └── locales /
 ```
+
+Steps to run studio webapp locally:
+- Retrieve dropbox link to the assets
+- Download `studio_assets`
+- Unzip `build` folder so the `data`, `fonts`, and `locales` folder are at the root of the folder
+- Serve index.html
