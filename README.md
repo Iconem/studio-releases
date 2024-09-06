@@ -1,7 +1,7 @@
-public folder structure:
+Project folder structure:
 
 ```
- public /
+ studio /
     └── $id.bundle.js
     └── $id.bundle.js.LICENSE.txt
     └── favicon.ico
