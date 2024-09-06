@@ -1,4 +1,12 @@
-Project folder structure:
+
+## Steps to run studio webapp locally
+- Retrieve dropbox link to the assets - shared privately
+- Download `studio_assets`
+- Unzip `build` folder so the `data` folder is at the same location than `fonts`, and `locales`, all folders should be at the root of the folder
+- Serve `index.html`, e.g. via [http-server](https://www.npmjs.com/package/http-server)
+
+
+## Project folder structure:
 
 ```
  studio /
@@ -40,9 +48,3 @@ Project folder structure:
     └── fonts /
     └── locales /
 ```
-
-Steps to run studio webapp locally:
-- Retrieve dropbox link to the assets
-- Download `studio_assets`
-- Unzip `build` folder so the `data`, `fonts`, and `locales` folder are at the root of the folder
-- Serve index.html
